@@ -4,5 +4,5 @@ namespace Jobcerto\Pipeable\Contracts;
 
 interface PipeContract
 {
-    public function handle($subject);
+    public function handle($subject, array $attributes);
 }

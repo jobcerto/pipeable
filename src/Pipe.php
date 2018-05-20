@@ -36,8 +36,8 @@ class Pipe
      * @param  PipeableContract $class
      * @return void
      */
-    public function on($class)
+    public function on($class, $attributes)
     {
-        (new $class)->handle($this->subject);
+        (new $class)->handle($this->subject, $attributes);
     }
 }
