@@ -1,0 +1,21 @@
+{
+    "name": "jobcerto/pipeable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Geschonke",
+            "email": "edu@jobcerto.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Jobcerto\\Pipeable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Jobcerto\\Pipeable\\PipeableServiceProvider"]
+        }
+    }
+}
