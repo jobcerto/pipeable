@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Pipes;
+
+use Jobcerto\Pipeable\Contracts\PipeContract;
+
+class #CLASSNAME# implements PipeContract
+{
+    public function handle($subject, array $solicitation)
+    {
+    }
+}

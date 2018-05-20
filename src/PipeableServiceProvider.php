@@ -11,5 +11,12 @@ class PipeableServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot() {}
+    public function boot()
+    {
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                \Jobcerto\Pipeable\Commands\MakePipeCommand::class,
+            ]);
+        }
+    }
 }
