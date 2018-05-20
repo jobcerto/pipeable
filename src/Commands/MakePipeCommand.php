@@ -12,7 +12,7 @@ class MakePipeCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'jobcerto:pipe { name : The name of Pipe }';
+    protected $signature = 'make:pipe { name : The name of Pipe }';
 
     /**
      * The console command description.

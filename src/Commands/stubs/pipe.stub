@@ -6,7 +6,7 @@ use Jobcerto\Pipeable\Contracts\PipeContract;
 
 class #CLASSNAME# implements PipeContract
 {
-    public function handle($subject, array $solicitation)
+    public function handle($subject, array $attributes)
     {
     }
 }
